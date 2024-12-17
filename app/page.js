@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import Results from './ui/results';
+
+import data from "../data/planets.json";
 
 
 // Features Data
@@ -73,6 +76,8 @@ export default function Home() {
               </div>
             </form>
           </div>
+
+          <Results data={data}></Results>
         </section>
 
         {/* Features Section */}
