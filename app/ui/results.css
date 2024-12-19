@@ -1,0 +1,31 @@
+.results {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px 40px 40px;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.results__items {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+}
+@media (min-width: 701px )  and (max-width: 950px) { /* Para tabletas */
+    .results__items {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    }
+}
+
+@media (max-width: 700px) { /* Para celulares */
+    .results__items {
+        grid-template-columns: 1fr; /* Una columna */
+        display: flex;      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

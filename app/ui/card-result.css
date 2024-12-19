@@ -1,0 +1,40 @@
+.card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border:1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0 15px 20px rgba(50, 50, 50, 0.4);
+    display: flex;
+}
+.imagen img {
+    width: 100%;
+}
+.description_imagen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.description{
+    width: 100%;
+}
+.cardTitle{
+color: aqua;
+padding-bottom: 10px;
+font-size: 20px;
+}
+
+@media (min-width: 701px )  and (max-width: 950px) { /* Para tabletas */
+    .description_imagen {
+        width: 80%;
+      }
+    .cardTitle{
+        font-size: 15px;
+        padding-bottom: 8spx;
+        }
+    .cardDescription{
+        font-size: 12px;
+    }
+}
