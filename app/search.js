@@ -1,6 +1,7 @@
-const planets = require('./planets.json');
 
-function searchInObjects(data, content) {
+const planets = require('../data/planets.json');
+
+export function searchInObjects(data, content) {
     return data.filter(item => {
         // Convertimos el texto a minúsculas para comparar de manera insensible a mayúsculas/minúsculas.
         const query = content.toLowerCase();
@@ -12,5 +13,3 @@ function searchInObjects(data, content) {
         );
     });
 }
-
-console.log(searchInObjects(planets, 'venus'));

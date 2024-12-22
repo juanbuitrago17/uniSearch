@@ -1,10 +1,17 @@
+'use client'; // Marca el archivo como componente de cliente
+
+import React, { useState } from 'react';
 import Head from 'next/head';
-import Results from './ui/results';
+import Results from './ui/results'; // Asegúrate de tener este componente
+import data from "../data/planets.json"; // Los planetas
+import {searchInObjects} from "./search" 
 
-import data from "../data/planets.json";
+export default function Home() {
+const [query, setQuery] = useState(''); // Estado para la consulta de búsqueda
+const [filteredResults, setFilteredResults] = useState(data); // Estado para los resultados filtrados
+const [error, setError] = useState(false); // Estado para manejar el error
 
-
-// Features Data
+  // Features Data
 const features = [
   {
     title: "Search for Celestial Objects",
@@ -19,7 +26,6 @@ const features = [
     description: "Browse breathtaking images of celestial objects in high quality.",
   },
 ];
-
 // Feature Card Component
 function FeatureCard({ title, description }) {
   return (
@@ -29,8 +35,25 @@ function FeatureCard({ title, description }) {
     </div>
   );
 }
+  // Función para manejar la búsqueda
+const handleSearch = (e) => {
+e.preventDefault(); // Evita la recarga de la página
+const results = searchInObjects(data, query); // Filtra los planetas según la consulta
+setFilteredResults(results); // Actualiza el estado con los resultados filtrados
 
-export default function Home() {
+    // Si no hay resultados, muestra el mensaje de error
+  if (results.length === 0) {
+  setError(true);
+  } else {
+   setError(false);
+   }
+ };
+
+   // Función para manejar el cambio en el campo de búsqueda
+    const handleInputChange = (e) => {
+      setQuery(e.target.value); // Actualiza el valor de la consulta
+   };
+
   return (
     <>
       <Head>
@@ -38,6 +61,7 @@ export default function Home() {
         <meta name="description" content="Discover planets, moons, and constellations with Unisearch." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+
       <div className="bg-gray-900 text-gray-100 min-h-screen">
         {/* Header */}
         <header className="bg-gray-800 border-b border-gray-700">
@@ -59,11 +83,12 @@ export default function Home() {
           <div className="container mx-auto">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Explore the Universe with Unisearch</h2>
             <p className="text-lg text-gray-300 mb-8">Discover planets, moons, constellations, and more—all in one place.</p>
-            <form action="#" method="GET" className="max-w-3xl mx-auto">
+            <form onSubmit={handleSearch} className="max-w-3xl mx-auto">
               <div className="relative">
                 <input
                   type="text"
-                  name="query"
+                  value= {query}
+                  onChange={handleInputChange} // Captura la consulta del usuario
                   placeholder="Search for planets, moons, or constellations..."
                   className="w-full py-3 px-4 text-gray-900 rounded-lg outline-none"
                 />
@@ -77,11 +102,19 @@ export default function Home() {
             </form>
           </div>
 
-          <Results data={data}></Results>
+          {/* Mostrar los resultados filtrados o el mensaje de error */}
+          {error ? (
+            <div className="text-center mt-4">
+              <p className="text-red-500 text-lg font-semibold">
+                No results found. Try a different search term.
+              </p>
+            </div>
+          ) : (
+            <Results data={filteredResults} />
+          )}
         </section>
-
-        {/* Features Section */}
-        <section id="features" className="py-16">
+ {/* Features Section */}
+ <section id="features" className="py-16">
           <div className="container mx-auto text-center">
             <h3 className="text-3xl font-bold mb-8">Key Features</h3>
             <div className="grid md:grid-cols-3 gap-8">
