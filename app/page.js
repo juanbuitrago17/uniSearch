@@ -9,6 +9,7 @@ import Header from './ui/header';
 import Feature from './ui/feature';
 import Section from './ui/section';
 import Footer from './ui/footer';
+import Error from './ui/error';
 
 export default function Home() {
   const [query, setQuery] = useState(''); // Estado para la consulta de búsqueda
@@ -68,11 +69,7 @@ export default function Home() {
 
           {/* Mostrar los resultados filtrados o el mensaje de error */}
           {error ? (
-            <div className="text-center mt-4">
-              <p className="text-red-500 text-lg font-semibold">
-                No results found. Try a different search term.
-              </p>
-            </div>
+            <Error/>
           ) : (
             <Results data={filteredResults} />
           )}

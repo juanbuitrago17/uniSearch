@@ -38,3 +38,12 @@ font-size: 20px;
         font-size: 12px;
     }
 }
+@media (max-width: 700px) { /* Para celulares */
+    .card {
+        display:block; 
+    }
+    
+    .imagen img {
+        width: 30%;
+    }
+}
