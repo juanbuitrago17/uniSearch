@@ -40,20 +40,22 @@
   align-items: center;
 }
 
-.text-info{
-  display: flex ;
+.text-info {
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 15px;
 }
-.content-planet{
+
+.content-planet {
   display: flex;
 }
 
-.description{
+.description {
   font-size: 25px;
 }
-.secundary-description{
+
+.secundary-description {
   display: flex;
   font-size: 18px;
   align-items: center;
@@ -64,14 +66,16 @@
 
 .table {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Dos columnas: 1 parte para el atributo, 2 para el valor */
+  grid-template-columns: 1fr 2fr;
+  /* Dos columnas: 1 parte para el atributo, 2 para el valor */
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
 }
 
 .row {
-  display: contents; /* Permite que las celdas sigan el grid del contenedor */
+  display: contents;
+  /* Permite que las celdas sigan el grid del contenedor */
 }
 
 .cell {
@@ -80,48 +84,71 @@
 }
 
 .cell:nth-child(2) {
-  text-align: left; /* Alinea el texto de los valores a la izquierda */
+  text-align: left;
+  /* Alinea el texto de los valores a la izquierda */
 }
 
-.carousel{
+.carousel {
   padding: 10px;
   display: flex;
   gap: 10px;
 }
 
-.imagen-carousel{
+.imagen-carousel {
   width: 100%;
   max-width: 80px;
 }
 
 @media (min-width: 701px) and (max-width: 950px) {
-.content-planet{
-  flex-direction: column;
-}
-
-.pricipal-description{
-justify-content: center;
-    align-items: center;
-}
-
-.imagen-carousel{
-  width: 100%;
-  max-width: 65px;
-}  
-}
-
-@media (max-width: 700px) { /* Para celulares */
-  .content-planet{
+  .content-planet {
     flex-direction: column;
   }
 
-  .pricipal-description{
-    justify-content: center;
-        align-items: center;
-    }
+  .principal {
+    border: 0.7px solid #757575;
+    border-radius: 20px;
+    padding: 20px;
+  }
 
-    .imagen-carousel{
-      width: 100%;
-      max-width: 50px;
-    }  
+  .secundary-description {
+    padding-left: 0;
+  }
+
+  .pricipal-description {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagen-carousel {
+    width: 100%;
+    max-width: 65px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  /* Para celulares */
+  .content-planet {
+    flex-direction: column;
+  }
+
+  .principal {
+    border: 0.7px solid #757575;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  .secundary-description {
+    padding-left: 0;
+  }
+
+  .pricipal-description {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagen-carousel {
+    width: 100%;
+    max-width: 50px;
+  }
 }
