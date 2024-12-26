@@ -1,0 +1,65 @@
+.casa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none; /* Se oculta por defecto */
+}
+
+/* Mostrar el ícono de hamburguesa en pantallas pequeñas */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block; /* Mostrar ícono de hamburguesa en pantallas pequeñas */
+    }
+
+    .menu {
+        display: none; /* El menú está oculto por defecto en pantallas pequeñas */
+        position: absolute;
+        top: 60px; /* Ajusta según el tamaño del header */
+        left: 0;
+        right: 0;
+        background-color: #1f2937;
+        padding: 10px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .menu.open {
+        display: block; /* Mostrar el menú cuando el estado está abierto */
+    }
+
+    .menu-item {
+        color: #6706fe;
+        text-decoration: none;
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* En pantallas grandes, el menú se muestra directamente en la barra del título */
+@media (min-width: 769px) {
+    .menu {
+        display: flex; /* Mostrar el menú como una fila */
+        margin-left: 20px;
+    }
+
+    .menu-item {
+        color: #6706fe;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+    .menu-icon {
+        display: none; /* Ocultar ícono en pantallas grandes */
+    }
+}
