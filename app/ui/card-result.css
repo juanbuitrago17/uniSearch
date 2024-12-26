@@ -2,47 +2,72 @@
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    border:1px solid gray;
-    border-radius: 15px;
+    border: 2px solid gray; /* Initial gray border */
+    border-radius: 15px; /* Rounded corners */
     box-shadow: 0 15px 20px rgba(50, 50, 50, 0.4);
     display: flex;
-}
+    position: relative; /* Necessary for hover effect */
+    transition: border 0.3s ease; /* Smooth transition for the border */
+  }
+  
+  /* On hover, apply gradient border */
+  .card:hover {
+    border-radius: 15px;
+    border: 2px solid transparent; /* Make border transparent on hover */
+    border-image: linear-gradient(to right, blue, purple, pink) 1; /* Gradient border */
+    background-origin: border-box;
+    background-clip: border-box, content-box ;
+  }
+  
+  
 .imagen img {
     width: 100%;
 }
+
 .description_imagen {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 
-.description{
+.description {
     width: 100%;
-}
-.cardTitle{
-color: aqua;
-padding-bottom: 10px;
-font-size: 20px;
+    text-align: left;
 }
 
-@media (min-width: 701px )  and (max-width: 950px) { /* Para tabletas */
+.cardTitle {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+@media (min-width: 701px) and (max-width: 950px) {
+
+    /* Para tabletas */
     .description_imagen {
         width: 80%;
-      }
-    .cardTitle{
+    }
+
+    .cardTitle {
         font-size: 15px;
         padding-bottom: 8spx;
-        }
-    .cardDescription{
+    }
+
+    .cardDescription {
         font-size: 12px;
     }
 }
-@media (max-width: 700px) { /* Para celulares */
+
+@media (max-width: 700px) {
+
+    /* Para celulares */
     .card {
-        display:block; 
+        display: block;
     }
-    
+
     .imagen img {
         width: 30%;
     }

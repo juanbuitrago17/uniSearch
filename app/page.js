@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import Results from './ui/results'; // Asegúrate de tener este componente
 import data from "../data/planets.json"; // Los planetas
 import { searchInObjects } from "./search";
+import '@/public/images/alien.png'
 
 import Head from './ui/head';
-import Header from './ui/header';
 import Feature from './ui/feature';
 import Section from './ui/section';
 import Footer from './ui/footer';
@@ -40,9 +40,7 @@ export default function Home() {
   return (
     <>
       <Head />
-      <div className="bg-gray-900 text-gray-100 min-h-screen">
-        <Header />
-
+      
         {/* Hero Section */}
         <section className="bg-gray-800 py-20 text-center">
           <div className="container mx-auto">
@@ -77,7 +75,6 @@ export default function Home() {
         <Feature />
         <Section />
         <Footer />
-      </div>
     </>
   );
 }

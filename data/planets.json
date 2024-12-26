@@ -1,139 +1,142 @@
 [
-    {
-      "_id": "planet_mercury",
-      "type": "planet",
-      "name": "Mercury",
-      "description": "The smallest planet in the Solar System and closest to the Sun.",
-      "discovery_date": "Ancient times",
-      "mass": 3.3011e23,
-      "radius": 2439.7,
-      "orbital_period": 87.97,
-      "distance_from_earth": 0.61,
-      "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/18_mercury_new.png",
-      "additional_info": {
-        "number_of_moons": 0,
-        "has_rings": false,
-        "atmosphere_composition": ["Trace amounts of oxygen, sodium, hydrogen"]
-      }
-    },
-    {
-      "_id": "planet_venus",
-      "type": "planet",
-      "name": "Venus",
-      "description": "The second planet from the Sun, known for its thick, toxic atmosphere.",
-      "discovery_date": "Ancient times",
-      "mass": 4.8675e24,
-      "radius": 6051.8,
-      "orbital_period": 224.7,
-      "distance_from_earth": 0.28,
-      "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/27_venus_jg.png",
-      "additional_info": {
-        "number_of_moons": 0,
-        "has_rings": false,
-        "atmosphere_composition": ["Carbon dioxide", "Nitrogen"]
-      }
-    },
-    {
-      "_id": "planet_earth",
-      "type": "planet",
-      "name": "Earth",
-      "description": "The third planet from the Sun and the only one known to support life.",
-      "discovery_date": "N/A",
-      "mass": 5.972e24,
-      "radius": 6371,
-      "orbital_period": 365.25,
-      "distance_from_earth": 0,
-      "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
-      "additional_info": {
-        "number_of_moons": 1,
-        "has_rings": false,
-        "atmosphere_composition": ["Nitrogen", "Oxygen"]
-      }
-    },
-    {
-      "_id": "planet_mars",
-      "type": "planet",
-      "name": "Mars",
-      "description": "The fourth planet from the Sun, known as the Red Planet.",
-      "discovery_date": "Ancient times",
-      "mass": 6.4171e23,
-      "radius": 3389.5,
-      "orbital_period": 687,
-      "distance_from_earth": 0.52,
-      "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/19_mars.png",
-      "additional_info": {
-        "number_of_moons": 2,
-        "has_rings": false,
-        "atmosphere_composition": ["Carbon dioxide", "Nitrogen", "Argon"]
-      }
-    },
-    {
-      "_id": "planet_jupiter",
-      "type": "planet",
-      "name": "Jupiter",
-      "description": "The largest planet in the Solar System, a gas giant.",
-      "discovery_date": "Ancient times",
-      "mass": 1.8982e27,
-      "radius": 69911,
-      "orbital_period": 4332.59,
-      "distance_from_earth": 4.2,
-      "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/16_jupiter_new.png",
-      "additional_info": {
-        "number_of_moons": 95,
-        "has_rings": true,
-        "atmosphere_composition": ["Hydrogen", "Helium"]
-      }
-    },
-    {
-      "_id": "planet_saturn",
-      "type": "planet",
-      "name": "Saturn",
-      "description": "The second-largest planet, known for its prominent ring system.",
-      "discovery_date": "Ancient times",
-      "mass": 5.6834e26,
-      "radius": 58232,
-      "orbital_period": 10759,
-      "distance_from_earth": 8.5,
-      "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/28_saturn.png",
-      "additional_info": {
-        "number_of_moons": 146,
-        "has_rings": true,
-        "atmosphere_composition": ["Hydrogen", "Helium"]
-      }
-    },
-    {
-      "_id": "planet_uranus",
-      "type": "planet",
-      "name": "Uranus",
-      "description": "An ice giant tilted on its side with a pale blue color.",
-      "discovery_date": "1781",
-      "mass": 8.6810e25,
-      "radius": 25362,
-      "orbital_period": 30688.5,
-      "distance_from_earth": 18.2,
-      "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/29_uranus.png",
-      "additional_info": {
-        "number_of_moons": 27,
-        "has_rings": true,
-        "atmosphere_composition": ["Hydrogen", "Helium", "Methane"]
-      }
-    },
-    {
-      "_id": "planet_neptune",
-      "type": "planet",
-      "name": "Neptune",
-      "description": "The farthest planet from the Sun, known for its vivid blue color.",
-      "discovery_date": "1846",
-      "mass": 1.02413e26,
-      "radius": 24622,
-      "orbital_period": 60182,
-      "distance_from_earth": 29.1,
-      "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/30_neptune.png",
-      "additional_info": {
-        "number_of_moons": 14,
-        "has_rings": true,
-        "atmosphere_composition": ["Hydrogen", "Helium", "Methane"]
-      }
+  {
+    "_id": "planet_mercury",
+    "type": "planet",
+    "name": "Mercury",
+    "description": "The smallest planet in the Solar System and closest to the Sun.",
+    "discovery_date": "Ancient times",
+    "mass": 3.3011e23,
+    "radius": 2439.7,
+    "orbital_period": 87.97,
+    "distance_from_earth": 0.61,
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/18_mercury_new.png",
+    "additional_info": {
+      "number_of_moons": 0,
+      "has_rings": false,
+      "atmosphere_composition": "Trace amounts of oxygen, sodium, hydrogen"
     }
-  ]
-  
+  },
+  {
+    "_id": "planet_venus",
+    "type": "planet",
+    "name": "Venus",
+    "description": "The second planet from the Sun, known for its thick, toxic atmosphere.",
+    "discovery_date": "Ancient times",
+    "mass": 4.8675e24,
+    "radius": 6051.8,
+    "orbital_period": 224.7,
+    "distance_from_earth": 0.28,
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/27_venus_jg.png",
+    "additional_info": {
+      "number_of_moons": 0,
+      "has_rings": false,
+      "atmosphere_composition": "Carbon dioxide, Nitrogen"
+    }
+  },
+  {
+    "_id": "planet_earth",
+    "type": "planet",
+    "name": "Earth",
+    "description": "The third planet from the Sun and the only one known to support life.",
+    "discovery_date": "N/A",
+    "mass": 5.972e24,
+    "radius": 6371,
+    "orbital_period": 365.25,
+    "distance_from_earth": 0,
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
+    "additional_info": {
+      "number_of_moons": 1,
+      "has_rings": false,
+      "atmosphere_composition": "Nitrogen, Oxygen"
+    }
+  },
+  {
+    "_id": "planet_mars",
+    "type": "planet",
+    "name": "Mars",
+    "description": "The fourth planet from the Sun, known as the Red Planet.",
+    "discovery_date": "Ancient times",
+    "mass": 6.4171e23,
+    "radius": 3389.5,
+    "orbital_period": 687,
+    "distance_from_earth": 0.52,
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/19_mars.png",
+    "additional_info": {
+      "number_of_moons": 2,
+      "has_rings": false,
+      "atmosphere_composition": "Carbon dioxide, Nitrogen, Argon"
+    }
+  },
+  {
+    "_id": "planet_jupiter",
+    "type": "planet",
+    "name": "Jupiter",
+    "description": "The largest planet in the Solar System, a gas giant.",
+    "discovery_date": "Ancient times",
+    "mass": 1.8982e27,
+    "radius": 69911,
+    "orbital_period": 4332.59,
+    "distance_from_earth": 4.2,
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/16_jupiter_new.png",
+    "additional_info": {
+      "number_of_moons": 95,
+      "has_rings": true,
+      "atmosphere_composition": "Hydrogen, Helium"
+    }
+  },
+  {
+    "_id": "planet_saturn",
+    "type": "planet",
+    "name": "Saturn",
+    "description": "The second-largest planet, known for its prominent ring system.",
+    "discovery_date": "Ancient times",
+    "mass": 5.6834e26,
+    "radius": 58232,
+    "orbital_period": 10759,
+    "distance_from_earth": 8.5,
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/28_saturn.png",
+    "images": [
+      "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/titan_carousel2.jpg?w=4096&format=jpeg&fit=clip&crop=faces%2Cfocalpoint",
+      "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/i/IMG003621.jpg?w=4096&format=jpeg&fit=clip&crop=faces%2Cfocalpoint"
+    ],
+    "additional_info": {
+      "number_of_moons": 146,
+      "has_rings": true,
+      "atmosphere_composition": "Hydrogen, Helium"
+    }
+  },
+  {
+    "_id": "planet_uranus",
+    "type": "planet",
+    "name": "Uranus",
+    "description": "An ice giant tilted on its side with a pale blue color.",
+    "discovery_date": "1781",
+    "mass": 8.6810e25,
+    "radius": 25362,
+    "orbital_period": 30688.5,
+    "distance_from_earth": 18.2,
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/29_uranus.png",
+    "additional_info": {
+      "number_of_moons": 27,
+      "has_rings": true,
+      "atmosphere_composition": "Hydrogen, Helium, Methane"
+    }
+  },
+  {
+    "_id": "planet_neptune",
+    "type": "planet",
+    "name": "Neptune",
+    "description": "The farthest planet from the Sun, known for its vivid blue color.",
+    "discovery_date": "1846",
+    "mass": 1.02413e26,
+    "radius": 24622,
+    "orbital_period": 60182,
+    "distance_from_earth": 29.1,
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/30_neptune.png",
+    "additional_info": {
+      "number_of_moons": 14,
+      "has_rings": true,
+      "atmosphere_composition": "Hydrogen, Helium, Methane"
+    }
+  }
+]
