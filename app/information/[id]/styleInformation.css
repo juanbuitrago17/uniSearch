@@ -34,6 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: end;
+  padding-bottom: 10px;
 }
 
 .image {
@@ -96,7 +97,20 @@
 
 .imagen-carousel {
   width: 100%;
-  max-width: 80px;
+  max-width: 70px;
+}
+
+.image {
+  width: 100%;
+  max-width: 380px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 @media (min-width: 701px) and (max-width: 950px) {
@@ -123,6 +137,15 @@
     width: 100%;
     max-width: 65px;
   }
+
+  .image {
+    max-width: 450px;
+    max-height: 380px;
+  }
+  
+
+  
+  
 }
 
 @media (max-width: 700px) {

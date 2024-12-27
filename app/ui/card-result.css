@@ -3,7 +3,7 @@
     max-width: 400px;
     padding: 20px;
     border: 2px solid gray; /* Initial gray border */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     box-shadow: 0 15px 20px rgba(50, 50, 50, 0.4);
     display: flex;
     position: relative; /* Necessary for hover effect */
@@ -12,8 +12,11 @@
   
   /* On hover, apply gradient border */
   .card:hover {
-    border: 2px solid transparent; /* Make border transparent on hover */
-    border-image: linear-gradient(to right,  purple, pink) 1; /* Gradient border */
+    border: 2px solid transparent; /* Necesario para aplicar gradiente */
+    border-radius: 15px;
+    background-image: linear-gradient(#1f2937, #1f2937), linear-gradient(90deg, purple, pink);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
   }
   
   

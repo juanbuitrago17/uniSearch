@@ -39,10 +39,14 @@
     }
 
     .menu-item {
-        color: #6706fe;
+        color: #febeca;
         text-decoration: none;
         display: block;
         margin: 10px 0;
+    }
+
+    .menu-item:hover{
+        color: white;
     }
 }
 
@@ -54,9 +58,13 @@
     }
 
     .menu-item {
-        color: #6706fe;
+        color: #febeca;
         text-decoration: none;
         margin: 0 15px;
+    }
+
+    .menu-item:hover{
+        color: white;
     }
 
     .menu-icon {

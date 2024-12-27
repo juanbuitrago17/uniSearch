@@ -1,5 +1,6 @@
 'use client'; // Directiva para que este componente se ejecute en el cliente
 
+import React, { useState } from 'react';
 import { useParams } from 'next/navigation'; // Para obtener el parámetro dinámico
 import data from '@/data/planets.json'; // Los datos de los planetas
 import './styleInformation.css';
@@ -14,26 +15,36 @@ export default function Information() {
     return <div>Planeta no encontrado.</div>;  // Si no encontramos el planeta, mostramos un mensaje
   }
 
+  const [mainImage, setMainImage] = useState(planet.image_url);
+
+  const handleImageClick = (url) => {
+    setMainImage(url);  // Cambia la imagen principal al hacer clic
+  };
+
   return (
     <div className='main'>
       <div className='principal'>
         <div className='imagenArrow'>
-          <a href="/" className='href-arrow'><img src='/images/arrow.png' /></a>
+          <a href="/" className='href-arrow'><img src='/images/arrow.png' alt="arrow" /></a>
         </div>
         <div className='content-planet'>
           <div className='pricipal-description'>
-            <div className='image'>
-              <img src={planet.image_url} alt={planet.name} />
+            <div className="image">
+              <img src={mainImage} alt={planet.name} />
             </div>
             <a href="#">
-              <div className='carousel'>
-
+              <div className="carousel">
                 {
-                  planet.images && planet.images.map(url => (
-                    <img className='imagen-carousel'  key={url || index} src={url} />
+                  planet.images && planet.images.map((url, index) => (
+                    <img
+                      className="imagen-carousel"
+                      key={url || index}
+                      src={url}
+                      alt={`planet-carousel-${index}`}
+                      onClick={() => handleImageClick(url)} // Cambia la imagen principal al hacer clic
+                    />
                   ))
                 }
-
               </div>
             </a>
           </div>

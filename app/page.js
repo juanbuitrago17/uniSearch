@@ -10,6 +10,7 @@ import Feature from './ui/feature';
 import Section from './ui/section';
 import Footer from './ui/footer';
 import Error from './ui/error';
+import '@/app/ui/search.css'
 
 export default function Home() {
   const [query, setQuery] = useState(''); // Estado para la consulta de búsqueda
@@ -46,18 +47,18 @@ export default function Home() {
           <div className="container mx-auto">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Explore the Universe with Unisearch</h2>
             <p className="text-lg text-gray-300 mb-8">Discover planets, moons, constellations, and more—all in one place.</p>
-            <form onSubmit={handleSearch} className="max-w-3xl mx-auto">
-              <div className="relative">
+            <form onSubmit={handleSearch} className="form-container">
+              <div className="input-group">
                 <input
                   type="text"
                   value={query}
                   onChange={handleInputChange} // Captura la consulta del usuario
                   placeholder="Search for planets, moons, or constellations..."
-                  className="w-full py-3 px-4 text-gray-900 rounded-lg outline-none"
+                  className="search-input"
                 />
                 <button
                   type="submit"
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 px-6 py-2 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700"
+                  className="search-button"
                 >
                   Search
                 </button>

@@ -13,7 +13,9 @@ export default function Header() {
     return (
         <header className="bg-gray-800 border-b border-gray-700">
             <div className="mx-auto py-4 px-6 casa" >
+                <a href="/">
                 <h1 className="text-3xl font-bold text-white">Unisearch</h1>
+                </a>
                 <div className="menu-container">
                     {/* Mostrar solo el ícono en pantallas pequeñas */}
                     <label 
