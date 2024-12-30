@@ -1,0 +1,76 @@
+[
+    {
+      "_id": "planet_kepler-186f",
+      "name": "Kepler-186f",
+      "type": "planet",
+      "discovery_date": "2014",
+      "mass": 1.4e24,  // Random mass estimate
+      "radius": 1.15 * 6371,  // Earth radius as reference
+      "orbital_period": 136,  // Random orbital period
+      "distance_from_earth": 495,  // Random distance in light years
+      "distance_in_light_years": 495,  // Same as distance_from_earth for consistency
+      "classification": "Super-Earth",  // Hypothetical classification
+      "description": "A potentially habitable exoplanet orbiting the red dwarf star Kepler-186.",
+      "star": "Kepler-186",
+      "galaxy": "Milky Way",
+      "visibility": "Not visible with naked eye",
+      "additional_info": {
+        "number_of_moons": "",  // Unknown
+        "has_rings": "",  // Unknown
+        "atmosphere_composition": "Possibly similar to Earth",  // Hypothetical
+        "surface_temperature": "-50°C to 150°C (estimated)"  // Hypothetical
+      },
+      "image_url": "",  // No image available
+      "images": []  // Empty image list
+    },
+    {
+      "_id": "planet_trappist-1e",
+      "name": "TRAPPIST-1e",
+      "type": "planet",
+      "discovery_date": "2017",
+      "mass": 0.777e24,  // Random mass estimate
+      "radius": 0.927 * 6371,  // Earth radius as reference
+      "orbital_period": 4.05,  // Random orbital period
+      "distance_from_earth": 40,  // Random distance in light years
+      "distance_in_light_years": 40,  // Same as distance_from_earth for consistency
+      "classification": "Terrestrial",  // Hypothetical classification
+      "description": "One of seven Earth-sized planets orbiting the ultra-cool dwarf star TRAPPIST-1.",
+      "star": "TRAPPIST-1",
+      "galaxy": "Milky Way",
+      "visibility": "Not visible with naked eye",
+      "additional_info": {
+        "number_of_moons": "",  // Unknown
+        "has_rings": "",  // Unknown
+        "atmosphere_composition": "Possibly rocky",  // Hypothetical
+        "surface_temperature": "-63°C to 20°C (estimated)"  // Hypothetical
+      },
+      "image_url": "",  // No image available
+      "images": []  // Empty image list
+    },
+    ...
+  
+    {
+      "_id": "planet_zephrya",  // Placeholder name, replace with unique names
+      "name": "Zephrya",
+      "type": "planet",
+      "discovery_date": "",  // Unknown
+      "mass": "",  // Unknown
+      "radius": "",  // Unknown
+      "orbital_period": "",  // Unknown
+      "distance_from_earth": "",  // Unknown
+      "distance_in_light_years": "",  // Unknown
+      "classification": "",  // Unknown
+      "description": "",  // Unknown
+      "star": "",  // Unknown
+      "galaxy": "",  // Unknown
+      "visibility": "",  // Unknown
+      "additional_info": {
+        "number_of_moons": "",  // Unknown
+        "has_rings": "",  // Unknown
+        "atmosphere_composition": "",  // Unknown
+        "surface_temperature": ""  // Unknown
+      },
+      "image_url": "",  // No image available
+      "images": []  // Empty image list
+    }
+  ]
