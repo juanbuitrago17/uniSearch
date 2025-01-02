@@ -8,7 +8,6 @@ import '@/public/images/alien.png'
 import Head from './ui/head';
 import Feature from './ui/feature';
 import Section from './ui/section';
-import Footer from './ui/footer';
 import Error from './ui/error';
 import '@/app/ui/search.css'
 
@@ -43,7 +42,7 @@ export default function Home() {
       <Head />
       
         {/* Hero Section */}
-        <section className="bg-gray-800 py-20 text-center">
+        <section className="bg-gray-800 py-20 text-center 2xl:container mr-auto ml-auto">
           <div className="container mx-auto">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Explore the Universe with Unisearch</h2>
             <p className="text-lg text-gray-300 mb-8">Discover planets, moons, constellations, and more—all in one place.</p>
@@ -75,7 +74,6 @@ export default function Home() {
         </section>
         <Feature />
         <Section />
-        <Footer />
     </>
   );
 }
