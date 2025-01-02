@@ -23,7 +23,7 @@ export default function Information() {
 
   return (
     <div className='main'>
-      <div className='principal'>
+      <div className='principal container mx-auto'>
         <div className='imagenArrow'>
           <a href="/" className='href-arrow'><img src='/images/arrow.png' alt="arrow" /></a>
         </div>
