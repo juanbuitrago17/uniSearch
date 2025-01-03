@@ -238,5 +238,125 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP62MUSsNuX5If0BDieyjuJBp_DBIYXf5Rz7boRjk7JRtD3OzgGF5_ApxFFnQ6D_oYbsk&usqp=CAU",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_7T_Af5ZqYetjTcmCMZx5Woyl9Zypbuk75ZAyNeJEzYuPWA9Ulgz0kBMdsT9Nv9oLSvU&usqp=CAU"
     ]
+  },
+  {
+    "_id": "planet_pluto",
+    "name": "Pluto",
+    "type": "dwarf planet",
+    "discovery_date": "It was March 14, 1930, and her grandfather, Falconer Madan, had announced that scientists discovered the ninth planet",
+    "mass":"1.2×10^22 kilograms.",
+    "radius": "1,185 kilometers",
+    "orbital_period": "247.69 Earth years",
+    "distance_from_earth": "3.7 billion miles (5.9 billion kilometers)",
+    "distance_in_light_years": "0.000625 light-years",
+    "classification": "Dwarf Planet",
+    "description": "A dwarf planet in the Kuiper belt, once considered the ninth planet of the Solar System,Pluto was reclassified as a dwarf planet in 2006 by the International Astronomical Union because other objects might cross its orbit",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "With telescope",
+    "additional_info": {
+      "number_of_moons": "Pluto has five known moons: Charon, Nix, Hydra, Kerberos, and Styx",
+      "has_rings": "doesn't have rings",
+      "atmosphere_composition": "The main constituent is molecular nitrogen, though molecules of methane and carbon monoxide have also been detected",
+      "surface_temperature": "  -375°F (-226°C) to -400°F (-240°C)"
+    },
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsgsmJK-oAYwyQbXd6qEoLrRygOaihiU9Y0YrmTd6Pk5NWy3XM9DWjx8jB1zneVWFlQio&usqp=CAU",
+    "images": [
+      "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/b/BIG_P_COLOR_2_TRUE_COLOR1_1980.jpg?w=1024&format=webp&fit=clip&crop=faces%2Cfocalpoint",
+      "https://science.nasa.gov/wp-content/uploads/2023/05/pia19968-charonmoon-jpg.webp?w=4096&format=png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsgsmJK-oAYwyQbXd6qEoLrRygOaihiU9Y0YrmTd6Pk5NWy3XM9DWjx8jB1zneVWFlQio&usqp=CAU",
+      "https://www.nasa.gov/wp-content/uploads/2023/03/nh-pluto-approaches-charon.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThlibXPlQIYbo72Oqb-Gkx9vQkYaZS2ejyHTiP2esVQfQsCvKvQ4iDDsA6IXOa76hFid8&usqp=CAU"
+    ]
+  },
+  {
+    "_id": "planet_ceres",
+    "name": "Ceres",
+    "type": "dwarf planet",
+    "discovery_date": "1801 by Giuseppe Piazzi",
+    "mass": "9.1×10^20 kilograms",
+    "radius": " 296 miles (476 kilometers)",
+    "orbital_period": "1,682 Earth days, or 4.6 Earth years",
+    "distance_from_earth": "257 million miles (413 million kilometers)",
+    "distance_in_light_years": "0.0000437 light years",
+    "classification": "Dwarf Planet",
+    "description": "The largest object in the asteroid belt between Mars and Jupiter, classified as a dwarf planet, Ceres is the only dwarf planet in the inner solar system. It was the first dwarf planet to receive a visit from a spacecraft",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "With telescope",
+    "additional_info": {
+      "number_of_moons": "doesn't have moons",
+      "has_rings": "doesn't have rings",
+      "atmosphere_composition": "1,682 Earth days, or 4.6 Earth years",
+      "surface_temperature": "-157°F (-105°C) to -36°F (-38°C)"
+    },
+    "image_url": "https://e7.pngegg.com/pngimages/628/696/png-clipart-ceres-dwarf-planet-spacepedia-asteroid-belt-planet-miscellaneous-atmosphere-thumbnail.png",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZAIdl7SOm9iSAsq3IkxBPC-Vme5gJoJrppetEN3o31vD8HYOVrd_w0UA5JgBMQn9QJFE&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhvghoavedd3cE-ProJDuXegA8G_2bSpbiB1rNYhopwUVDmq2diiZ4FQOtG_-H0v6uC4&usqp=CAU",
+      "https://e7.pngegg.com/pngimages/628/696/png-clipart-ceres-dwarf-planet-spacepedia-asteroid-belt-planet-miscellaneous-atmosphere-thumbnail.png",
+      "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/2948/Image_of_Ceres_with_bright_spot.jpeg?w=1024&format=webp&fit=clip&crop=faces%2Cfocalpoint",
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg"
+    ]
+  },
+  {
+    "_id": "planet_haumea",
+    "name": "Haumea",
+    "type": "dwarf planet",
+    "discovery_date": "Two teams claim credit for discovering Haumea citing evidence from observations made in 2003 and 2004",
+    "mass": "4.006×10^21 kilograms",
+    "radius": "approximate dimensions of 2,322 × 1,704 × 1,138 kilometers (1,443 × 1,059 × 707 miles)",
+    "orbital_period": "285 Earth years ",
+    "distance_from_earth": "4 billion miles (6.5 billion kilometers)",
+    "distance_in_light_years": "0.000687 light-years",
+    "classification": "Dwarf Planet",
+    "description": "Dwarf planet Haumea was originally designated 2003 EL61 (and nicknamed Santa by one discovery team). Haumea is located in the Kuiper Belt, a doughnut-shaped region of icy bodies beyond the orbit of Neptune. Haumea is an oval-shaped dwarf planet that is one of the fastest rotating large objects in our solar system. The fast spin distorts Haumea's shape, making this dwarf planet look like a football.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "With telescope",
+    "additional_info": {
+      "number_of_moons": "Haumea has two known moons: Namaka is the inner moon, and Hi'iaka is the outer moon",
+      "has_rings": "have rings",
+      "atmosphere_composition": "We know very little about Haumea's atmosphere",
+      "surface_temperature": "We know very little about Haumea's temperature, but dwarf planet located in the Kuiper belt, Haumea is expected to have very low temperatures, similar to other distant solar system bodies."
+    },
+    "image_url": "https://media.istockphoto.com/id/1211739638/photo/haumea-dwarf-planet-rotating-in-the-outer-space-3d-render.jpg?s=612x612&w=0&k=20&c=3bkcnYwR3p70yfaTVNxBMS9AqScR8RGNVsgVBGCZTZ4=",
+    "images": [
+      "https://science.nasa.gov/wp-content/uploads/2023/07/haumea-480x320-1-jpg.webp?w=320",
+      "https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1lSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--75ac289f8ffa148b3f12097ebadc2291782633a2/haumea_th.jpg?disposition=inline",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Haumea_Rotation.gif/213px-Haumea_Rotation.gif",
+      "https://media.istockphoto.com/id/1211739638/photo/haumea-dwarf-planet-rotating-in-the-outer-space-3d-render.jpg?s=612x612&w=0&k=20&c=3bkcnYwR3p70yfaTVNxBMS9AqScR8RGNVsgVBGCZTZ4=",
+      "https://daily.jstor.org/wp-content/uploads/2016/10/Haumea_1050x700.jpg"
+    ]
+  },
+  {
+    "_id": "planet_makemake",
+    "name": "Makemake",
+    "type": "dwarf planet",
+    "discovery_date": "was first observed in March 2005 by M.E. Brown, C.A. Trujillo, and D.L. Rabinowitz at the Palomar Observatory, California.",
+    "mass": " 3.1 x 10^21 kilograms",
+    "radius": "444 miles (715 kilometers)",
+    "orbital_period":"305 Earth years",
+    "distance_from_earth": "4,253 million miles (6,847 million kilometers)",
+    "distance_in_light_years":"0.000724 light-years",
+    "classification": "Dwarf Planet",
+    "description": "Makemake is slightly smaller than Pluto, and is the second-brightest object in the Kuiper Belt as seen from Earth while Pluto is the brightest. A dwarf planet in the Kuiper belt, the third-largest known dwarf planet in the Solar System.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "With telescope",
+    "additional_info": {
+      "number_of_moons": "has one provisional moon, S/2015 (136472) 1, and it's nicknamed MK 2.",
+      "has_rings": "doesn't have rings",
+      "atmosphere_composition": "Makemake may develop a very thin atmosphere, most likely made of nitrogen, near perihelion – when it is closest to the Sun.",
+      "surface_temperature": "We know very little about makemake's temperature"
+    },
+    "image_url": "https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdGdRIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bafc1c2e2e76668d8d156de3505a8f7e472e790a/makemake_th.jpg?disposition=inline",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa-rPEg3as2t5i7GDF_I1fO9euSsSoowuBJqwDYKmIgnp-3a2UTZnkWPLqLv5mSWOh-cM&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuxCQwvF4ZeDOScUKskqjN8TNpUkIIYcXtysGkyPga2PioJgg3lfkw2zVxJQnlL4HuEQQ&usqp=CAU",
+      "https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdGdRIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bafc1c2e2e76668d8d156de3505a8f7e472e790a/makemake_th.jpg?disposition=inline",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Tqy8Yyt4WI1YQn4S6HkicHdC1RO2DKxhfOZhfNok8PXaBDCYImV4SESH8f6jlUnxHL4&usqp=CAU",
+      "https://media2.spaceref.com/news/oomakemake.jpg"
+    ]
   }
 ]
