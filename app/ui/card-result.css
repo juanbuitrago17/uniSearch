@@ -35,6 +35,7 @@
 .description {
     width: 100%;
     text-align: left;
+    padding-left: 10px;
 }
 
 .cardTitle {
