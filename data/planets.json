@@ -1,99 +1,175 @@
 [
   {
     "_id": "planet_mercury",
-    "type": "planet",
     "name": "Mercury",
-    "description": "The smallest planet in the Solar System and closest to the Sun.",
-    "discovery_date": "Ancient times",
-    "mass": 3.3011e23,
-    "radius": 2439.7,
-    "orbital_period": 87.97,
-    "distance_from_earth": 0.61,
-    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/18_mercury_new.png",
+    "type": "planet",
+    "discovery_date": "Known to ancient civilizations, around 5,000 years ago",
+    "mass": "approximately 3.30×10^23 kilograms",
+    "radius": "1,516 miles (2,440 kilometers)",
+    "orbital_period": "88 Earth days",
+    "distance_from_earth": "36 million miles (58 million kilometers)",
+    "distance_in_light_years": "approximately 0.000006 light-years",
+    "classification": "Terrestrial",
+    "description": "The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "With telescope",
     "additional_info": {
-      "number_of_moons": 0,
-      "has_rings": false,
-      "atmosphere_composition": "Trace amounts of oxygen, sodium, hydrogen"
-    }
+      "number_of_moons": "doesn't have moons",
+      "has_rings": "doesn't have rings",
+      "atmosphere_composition": "oxygen, sodium, hydrogen, helium, and potassium",
+      "surface_temperature": "-290°F (-180°C) to 800°F (430°C)"
+    },
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/18_mercury_new.png",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg",
+      "https://solarsystem.nasa.gov/system/feature_items/images/18_mercury_new.png",
+      "https://science.nasa.gov/wp-content/uploads/2023/11/mercury-messenger-globe-pia15162.jpg?w=4096&format=jpeg&crop=1",
+      "https://science.nasa.gov/wp-content/uploads/2023/05/pia19420-mercury.jpg?w=4096&format=jpeg",
+      "https://images-assets.nasa.gov/image/PIA11406/PIA11406~orig.jpg?w=720&h=486&fit=clip&crop=faces%2Cfocalpoint"
+    ]
   },
   {
     "_id": "planet_venus",
-    "type": "planet",
     "name": "Venus",
-    "description": "The second planet from the Sun, known for its thick, toxic atmosphere.",
-    "discovery_date": "Ancient times",
-    "mass": 4.8675e24,
-    "radius": 6051.8,
-    "orbital_period": 224.7,
-    "distance_from_earth": 0.28,
-    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/27_venus_jg.png",
+    "type": "planet",
+    "discovery_date": "Known to ancient civilizations, around 3000 BCE",
+    "mass": "4.87×10^24 kilograms",
+    "radius": "7,521 miles (12,104 kilometers)",
+    "orbital_period": "224.7 Earth days.",
+    "distance_from_earth": "24 million miles (38 million kilometers)",
+    "distance_in_light_years": "0.00000444",
+    "classification": "Terrestrial",
+    "description": "Venus is the second planet from the Sun, and our closest planetary neighbor. It's the hottest planet in our solar system, and is sometimes called Earth's twin.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "Naked eye",
     "additional_info": {
-      "number_of_moons": 0,
-      "has_rings": false,
-      "atmosphere_composition": "Carbon dioxide, Nitrogen"
-    }
+      "number_of_moons":"doesn't have a moon, but it does have a quasi-satellite (Zoozve) ",
+      "has_rings": "doesn't have rings",
+      "atmosphere_composition": "Carbon Dioxide, Nitrogen",
+      "surface_temperature": "86°F (30°C) to 158°F (70°)"
+    },
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/27_venus_jg.png",
+    "images": [
+      "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/4881/Venus.jpeg?w=4096&format=jpeg&fit=clip&crop=faces%2Cfocalpoint",
+      "https://science.nasa.gov/wp-content/uploads/2023/05/venus-single.png?w=4096&format=png&crop=1",
+      "https://solarsystem.nasa.gov/system/feature_items/images/27_venus_jg.png",
+      "https://science.nasa.gov/wp-content/uploads/2023/05/pia00159-venus.jpg?w=4096&format=jpeg",
+      "https://science.nasa.gov/wp-content/uploads/2023/05/pia00107-venus-jpg.webp?w=4096&format=png"
+    ]
   },
   {
     "_id": "planet_earth",
-    "type": "planet",
     "name": "Earth",
-    "description": "The third planet from the Sun and the only one known to support life.",
-    "discovery_date": "N/A",
-    "mass": 5.972e24,
-    "radius": 6371,
-    "orbital_period": 365.25,
+    "type": "planet",
+    "discovery_date": "Prehistoric",
+    "mass": " 5.98x10^24 kilograms",
+    "radius": "approximately 6,378 kilometers (3,963 miles)",
+    "orbital_period": "365.25 days",
     "distance_from_earth": 0,
-    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
+    "distance_in_light_years": 0,
+    "classification": "Terrestrial",
+    "description": "Earth – our home planet – is the third planet from the Sun, and the fifth largest planet. It's the only place we know of inhabited by living things.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "Naked eye",
     "additional_info": {
-      "number_of_moons": 1,
-      "has_rings": false,
-      "atmosphere_composition": "Nitrogen, Oxygen"
-    }
+      "number_of_moons": "have a moon,  Our Moon is the brightest and most familiar object in the night sky.",
+      "has_rings": "doesn't have a ring",
+      "atmosphere_composition": "78% nitrogen, 21% oxygen, and 1% other gases such as argon, carbon dioxide, and neon",
+      "surface_temperature": "15°C (59°F)"
+    },
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR6jBC1f9_0ViNdocZLSGIOTXU198mI46d3Trtv4wG5Ze41qLWiPYJ_tZ_NJfDSUpUgYE&usqp=CAU",
+      "https://pbs.twimg.com/media/Gf09BZIb0AAYTTe?format=jpg&name=4096x4096",
+      "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
+      "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002131/GSFC_20171208_Archive_e002131~large.jpg?w=1919&h=1919&fit=clip&crop=faces%2Cfocalpoint",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZ3YeXQF6l1oMbHXaEQFzNGbDhYMRb3TgxYvh7JCJe40HF-w7vVWpUmmhP1RwvEmXW3s&usqp=CAU"
+    ]
   },
   {
     "_id": "planet_mars",
-    "type": "planet",
     "name": "Mars",
-    "description": "The fourth planet from the Sun, known as the Red Planet.",
-    "discovery_date": "Ancient times",
-    "mass": 6.4171e23,
-    "radius": 3389.5,
-    "orbital_period": 687,
-    "distance_from_earth": 0.52,
-    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/19_mars.png",
+    "type": "planet",
+    "discovery_date": "Known to ancient civilizations",
+    "mass": "6.41693×10^23 kilograms",
+    "radius": "2,106 miles (3,390 kilometers)",
+    "orbital_period": "687 Earth days",
+    "distance_from_earth": "142 million miles (228 million kilometers)",
+    "distance_in_light_years": "approximately 9.461 trillion kilometers (about 5.879 trillion miles)",
+    "classification": "Terrestrial",
+    "description": "Mars – the fourth planet from the Sun – is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps, extinct volcanoes, canyons and weather.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "Naked eye",
     "additional_info": {
-      "number_of_moons": 2,
-      "has_rings": false,
-      "atmosphere_composition": "Carbon dioxide, Nitrogen, Argon"
-    }
+      "number_of_moons": "has two small moons, Phobos and Deimos",
+      "has_rings": "doesn't have a ring",
+      "atmosphere_composition": "carbon dioxide, nitrogen, and argon gases",
+      "surface_temperature": "70°F (20°C) to -225°F (-153°C)"
+    },
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/19_mars.png",
+    "images": [
+      "https://science.nasa.gov/wp-content/uploads/2016/05/1-mars-nasa-gov-jpg.webp?w=400",
+      "https://science.nasa.gov/wp-content/uploads/2024/09/mars-wet-lpi-16x9-1.jpg?w=1920",
+      "https://solarsystem.nasa.gov/system/feature_items/images/19_mars.png",
+      "https://science.nasa.gov/wp-content/uploads/2024/07/pia26344-2500x.jpg?w=4096&format=jpeg",
+      "https://www.nasa.gov/wp-content/uploads/2023/04/mmx-mars-mission.jpg"
+    ]
   },
   {
     "_id": "planet_jupiter",
-    "type": "planet",
     "name": "Jupiter",
-    "description": "The largest planet in the Solar System, a gas giant.",
-    "discovery_date": "Ancient times",
-    "mass": 1.8982e27,
-    "radius": 69911,
-    "orbital_period": 4332.59,
-    "distance_from_earth": 4.2,
-    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/16_jupiter_new.png",
+    "type": "planet",
+    "discovery_date": "Known to ancient civilizations",
+    "mass": "1.8982×10^27 kilograms",
+    "radius": "43,440.7 miles (69,911 kilometers)",
+    "orbital_period": "4,333 Earth days",
+    "distance_from_earth": "484 million miles (778 million kilometers)",
+    "distance_in_light_years": "0.0000755",
+    "classification": "Gas Giant",
+    "description": "Jupiter is a world of extremes. It's the largest planet in our solar system – if it were a hollow shell, 1,000 Earths could fit inside. It's also the oldest planet, forming from the dust and gases left over from the Sun's formation 4.6 billion years ago. But it has the shortest day in the solar system, taking only 10.5 hours to spin around once on its axis, famous for its Great Red Spot.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "Naked eye",
     "additional_info": {
-      "number_of_moons": 95,
-      "has_rings": true,
-      "atmosphere_composition": "Hydrogen, Helium"
-    }
+      "number_of_moons": "has 95 moons that are officially recognized by the International Astronomical Union. The four largest moons – Io, Europa, Ganymede, and Callisto",
+      "has_rings": "have rings",
+      "atmosphere_composition": "Hydrogen, Helium, the atmosphere contains trace amounts of methane, ammonia, water vapor, and hydrogen sulfide",
+      "surface_temperature": "140 K (-133°C, -208°F). The white clouds"
+    },
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/16_jupiter_new.png",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJxZco3eBjE3GtSlOpf5bOhhBwzTZBlWtOXfkqte7MYlBTvKcIySHs2TMpiW-jE-cY_0k&usqp=CAU",
+      "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/4204/Jupiter_against_black_background_of_space.jpeg?w=2260&h=2260&fit=clip&crop=faces%2Cfocalpoint",
+      "https://solarsystem.nasa.gov/system/feature_items/images/16_jupiter_new.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFYImALbYde-T331-MgWbLNlSesroUstCbyO726tZD4PaH-nVhTTJbtk1dqbOrF1Cg5I&usqp=CAU",
+      "https://images-assets.nasa.gov/image/PIA02852/PIA02852~orig.jpg?w=863&h=629&fit=clip&crop=faces%2Cfocalpoint"
+    ]
   },
   {
     "_id": "planet_saturn",
-    "type": "planet",
     "name": "Saturn",
-    "description": "The second-largest planet, known for its prominent ring system.",
-    "discovery_date": "Ancient times",
-    "mass": 5.6834e26,
-    "radius": 58232,
-    "orbital_period": 10759,
-    "distance_from_earth": 8.5,
+    "type": "planet",
+    "discovery_date": "Known to ancient civilizations",
+    "mass": "5.683×10^26 kilograms",
+    "radius": "74,897 miles (120,500 kilometers)",
+    "orbital_period": "29.4 Earth years (10,756 Earth days)",
+    "distance_from_earth": "886 million miles (1.4 billion kilometers)",
+    "distance_in_light_years": "0.0001267",
+    "classification": "Gas Giant",
+    "description": "Saturn is the sixth planet from the Sun, and the second-largest planet in our solar system, known for its prominent ring system.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "Naked eye",
+    "additional_info": {
+      "number_of_moons": "has 146 moons in its orbit, Titan and Phoebe are the most famous ",
+      "has_rings": "have rings",
+      "atmosphere_composition": "Hydrogen, Helium",
+      "surface_temperature": "-139°C (cloud tops)"
+    },
     "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/28_saturn.png",
     "images": [
       "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/titan_carousel2.jpg?w=4096&format=jpeg&fit=clip&crop=faces%2Cfocalpoint",
@@ -101,45 +177,66 @@
       "https://solarsystem.nasa.gov/system/feature_items/images/28_saturn.png",
       "data:image/jpeg;base64,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",
       "https://photojournal.jpl.nasa.gov/browse/PIA21350.jpg"
-    ],
-    "additional_info": {
-      "number_of_moons": 146,
-      "has_rings": true,
-      "atmosphere_composition": "Hydrogen, Helium"
-    }
+    ]
   },
   {
     "_id": "planet_uranus",
-    "type": "planet",
     "name": "Uranus",
-    "description": "An ice giant tilted on its side with a pale blue color.",
-    "discovery_date": "1781",
-    "mass": 8.6810e25,
-    "radius": 25362,
-    "orbital_period": 30688.5,
-    "distance_from_earth": 18.2,
-    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/29_uranus.png",
+    "type": "planet",
+    "discovery_date": "1781 by William Herschel",
+    "mass": "8.68 x 10^25 kilograms",
+    "radius": " 25,362 kilometers (15,759 miles)",
+    "orbital_period": " 84 Earth years (30,687 Earth days)",
+    "distance_from_earth": "1.8 billion miles (2.9 billion kilometers)",
+    "distance_in_light_years": "0.000285",
+    "classification": "Ice Giant",
+    "description": "Uranus is the seventh planet from the Sun, and it has the third largest diameter of planets in our solar system. Uranus appears to spin sideways., tipped on its side and has faint rings.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "With telescope",
     "additional_info": {
-      "number_of_moons": 27,
-      "has_rings": true,
-      "atmosphere_composition": "Hydrogen, Helium, Methane"
-    }
+      "number_of_moons": "Uranus has 28 known moons, Uranus' moons are unique in being named for characters from the works of William Shakespeare and Alexander Pope.",
+      "has_rings": "have rings",
+      "atmosphere_composition": "hydrogen and helium, with a small amount of methane and traces of water and ammonia",
+      "surface_temperature": "with a minimum temperature of 49K (-224.2 degrees Celsius) "
+    },
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/29_uranus.png",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyghDG_QEUAqykjHoKWp2wCiVrADILWoEKs9dZ_Nga7jpUsWQQhmCaJgj-Q5F_Zu-sIU&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfV15Ct9Xzhn9Lti7sgDFRlhpEqNnnwi-6RvvKahxWzPuLByhvYMFbpFLWONSpPnl2_FA&usqp=CAU",
+      "https://solarsystem.nasa.gov/system/feature_items/images/29_uranus.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKI3wP1-p_5-9kLZFjuzlH5hZUM9jtV8uIiVruUIbepVOn-kE6gDWZx7Bg2j35uS620sQ&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCRphcCQFqrA3DbAMOR8enBtsxVLY_DH22RimGGm-H_VtiUCvdefrwhkqE3oGQ5qJYJys&usqp=CAU"
+    ]
   },
   {
     "_id": "planet_neptune",
-    "type": "planet",
     "name": "Neptune",
-    "description": "The farthest planet from the Sun, known for its vivid blue color.",
-    "discovery_date": "1846",
-    "mass": 1.02413e26,
-    "radius": 24622,
-    "orbital_period": 60182,
-    "distance_from_earth": 29.1,
-    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/30_neptune.png",
+    "type": "planet",
+    "discovery_date": "1846 by Johann Galle",
+    "mass": "1.024 x 10^26 kilograms",
+    "radius": "24,764 kilometers",
+    "orbital_period": "165 Earth years (60,190 Earth days)",
+    "distance_from_earth": " 2.8 billion miles (4.5 billion kilometers)",
+    "distance_in_light_years": " 0.000454",
+    "classification": "Ice Giant",
+    "description": "Neptune is the eighth and most distant planet in our solar system.Dark, cold, and whipped by supersonic winds, ice giant Neptune is more than 30 times as far from the Sun as Earth. Neptune is the only planet in our solar system not visible to the naked eye., known for its deep blue color and strong winds.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "With telescope",
     "additional_info": {
-      "number_of_moons": 14,
-      "has_rings": true,
-      "atmosphere_composition": "Hydrogen, Helium, Methane"
-    }
+      "number_of_moons": "Neptune's largest moon Triton was discovered on Oct. 10, 1846, by William Lassell, just 17 days after Johann Gottfried Galle discovered the planet.",
+      "has_rings": "have rings",
+      "atmosphere_composition": "Hydrogen, Helium, Methane",
+      "surface_temperature": "-201°C (cloud tops)"
+    },
+    "image_url": "https://solarsystem.nasa.gov/system/feature_items/images/30_neptune.png",
+    "images": [
+      "https://images-assets.nasa.gov/image/PIA00051/PIA00051~orig.jpg?w=650&h=650&fit=clip&crop=faces%2Cfocalpoint",
+      "https://images-assets.nasa.gov/image/PIA00057/PIA00057~orig.jpg?w=780&h=780&fit=clip&crop=faces%2Cfocalpoint",
+      "https://solarsystem.nasa.gov/system/feature_items/images/30_neptune.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP62MUSsNuX5If0BDieyjuJBp_DBIYXf5Rz7boRjk7JRtD3OzgGF5_ApxFFnQ6D_oYbsk&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_7T_Af5ZqYetjTcmCMZx5Woyl9Zypbuk75ZAyNeJEzYuPWA9Ulgz0kBMdsT9Nv9oLSvU&usqp=CAU"
+    ]
   }
 ]
