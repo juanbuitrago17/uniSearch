@@ -359,4 +359,60 @@
       "https://media2.spaceref.com/news/oomakemake.jpg"
     ]
   }
+  {
+    "_id": "planet_eris",
+    "name": "Eris",
+    "type": "dwarf planet",
+    "discovery_date": "Eris was discovered on Jan. 5, 2005",
+    "mass": "1.66 ± 0.02 × 10^22 kilograms",
+    "radius": "approximately 1,163 km (722.5 miles)",
+    "orbital_period": "557 Earth years",
+    "distance_from_earth": "6.3 billion miles (10 billion kilometers)",
+    "distance_in_light_years": " approximately 0.00106",
+    "classification": "Dwarf Planet",
+    "description": "One of the most massive dwarf planets, whose discovery led to Pluto’s reclassification, Eris is one of largest the dwarf planets in our solar system. It's about the same size as Pluto, but it's three times farther from the Sun.",
+    "star": "Sun",
+    "galaxy": "Milky Way",
+    "visibility": "With telescope",
+    "additional_info": {
+      "number_of_moons": "Eris has a very small moon called Dysnomia. Dysnomia has a nearly circular orbit lasting about 16 days",
+      "has_rings": "doesn't have rings",
+      "atmosphere_composition": "The dwarf planet is often so far from the Sun that its atmosphere collapses and freezes, falling to the surface as snow. As it gets closest to the Sun in its faraway orbit, the atmosphere thaws",
+      "surface_temperature": "about -359°F (-217°C) to -405°F (-243°C)"
+    },
+    "image_url": "/imagenes/planets/eris1.png",
+    "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQ8a7b6BMXtDW8mMBHfqoYlByztJCc2xN4MfSGtEEUb5RCpgAxj0ZBW_BXcjeZnsigOM&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYwNXjrb1KCyQIVNkfMnKEJQNlrVqQF5FGLw8mUnrmZnpTSL5OSAuZtY2UUTNQacynB_4&usqp=CAU",
+    "/imagenes/planets/eris1.png",
+    "https://starchild.gsfc.nasa.gov/Images/StarChild/solar_system_level2/eris_and_dysnomia_485.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRouLhnXIorTtI7Arc8Nb-IR3UV9RdAeZ8U9updTfd_fD5BKrqs2wXbG5XdpkU54GFsNM&usqp=CAU"]
+  },
+  {
+    "_id": "planet_proxima_centauri_b",
+    "name": "Proxima Centauri b",
+    "type": "exoplanet",
+    "discovery_date": "2016",
+    "mass": "1.27 Earths",
+    "radius": "1.03 x Earth (estimate)",
+    "orbital_period": "11.2 Earth days",
+    "distance_from_earth": "4.01 x 10^13 kilometers",
+    "distance_in_light_years": "4.24",
+    "classification": "Exoplanet",
+    "description": "A potentially Earth-like exoplanet orbiting within the habitable zone of Proxima Centauri.",
+    "star": "Proxima Centauri",
+    "galaxy": "Milky Way",
+    "visibility": "Not visible to naked eye",
+    "additional_info": {
+      "number_of_moons": "doesn't have moons",
+      "has_rings": "doesn't have rings",
+      "atmosphere_composition": "We know very little about Proxima Centauri b atmosphere",
+      "surface_temperature": "We know very little about Proxima Centauri b temperature"
+    },
+    "image_url": "/imagenes/planets/proxima-b.png",
+    "images": ["https://eyes.nasa.gov/apps/exo/assets/image/thumbnail/exoplanet/gj-1132-b-list.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8JkNGOjGuFw5oQp3CAnN6OrXTFVidhTxtG82vt71lkqqxmpdy2e2P-lkJLGVYssE1-Yg&usqp=CAU",
+      "/imagenes/planets/proxima-b.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPjlG1hR1RlJHk_SsO8qwbLpyzuk9CYjAHkViCJ9p_LJ-XZT_aQPM-7DEWMg4_PUgdr7s&usqp=CAU",
+      "https://eyes.nasa.gov/apps/exo/assets/image/thumbnail/exoplanet/hd-189733-b-list.webp"]
+  },
 ]
